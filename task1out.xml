@@ -1,0 +1,3488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Mar 18, 2025 at 04:05 PM
+- Server version: 10.4.32-MariaDB
+- PHP Version: 8.2.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="cs6314" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="course1">
+                CREATE TABLE `course1` (
+                  `year_semester` varchar(255) DEFAULT NULL,
+                  `course_number_section` varchar(255) NOT NULL,
+                  `course_title` varchar(255) DEFAULT NULL,
+                  `instructor_name` varchar(255) DEFAULT NULL,
+                  `instructor_netid` varchar(255) DEFAULT NULL,
+                  `schedule` varchar(255) DEFAULT NULL,
+                  `location` varchar(255) DEFAULT NULL,
+                  `time_created` timestamp NOT NULL DEFAULT current_timestamp(),
+                  `time_updated` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+                  PRIMARY KEY (`course_number_section`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'cs6314'
+    -->
+    <database name="cs6314">
+        <!-- Table course1 -->
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1325.001</column>
+            <column name="course_title">Introduction to Programming (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Miguel Razo Razo</column>
+            <column name="instructor_netid">mrazora</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1325.002</column>
+            <column name="course_title">Introduction to Programming (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Nidhiben Solanki</column>
+            <column name="instructor_netid">nxs121130</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1337.001</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Priya Narayanasami</column>
+            <column name="instructor_netid">pxn173330</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1337.002</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Srimathi Srinivasan</column>
+            <column name="instructor_netid">sxs180206</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1337.003</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Parisa Darbari</column>
+            <column name="instructor_netid">dal776869</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 1337.004</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Shyam Karrah</column>
+            <column name="instructor_netid">skarrah</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">SLC 2.303</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 1337.005</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Srimathi Srinivasan</column>
+            <column name="instructor_netid">sxs180206</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1337.006</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Gordon Arnold</column>
+            <column name="instructor_netid">gxa120930</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.311</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1337.007</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jason Smith</column>
+            <column name="instructor_netid">jws130830</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 1337.008</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Aditya Srivastava</column>
+            <column name="instructor_netid">axs142531</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1337.009</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Shyam Karrah</column>
+            <column name="instructor_netid">skarrah</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1337.010</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jason Smith</column>
+            <column name="instructor_netid">jws130830</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">FN 2.102</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 1337.0w1</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Scott Dollinger</column>
+            <column name="instructor_netid">smd013000</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">No Meeting Room</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 1337.0w2</column>
+            <column name="course_title">Computer Science I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Scott Dollinger</column>
+            <column name="instructor_netid">smd013000</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">No Meeting Room</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1337.701</column>
+            <column name="course_title">Computer Science I (Non-Enroll)</column>
+            <column name="instructor_name">Simeon Ntafos, Parisa Darbari, Shyam Karrah, Jason Smith, Scott Dollinger, Aditya Srivastava, Srimathi Srinivasan, Gordon Arnold, Priya Narayanasami</column>
+            <column name="instructor_netid">ntafos, dal776869, skarrah, jws130830, smd013000, axs142531, sxs180206, gxa120930, pxn173330</column>
+            <column name="schedule">Common Exam</column>
+            <column name="location">N/A</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1436.001</column>
+            <column name="course_title">Programming Fundamentals (4 Credits)</column>
+            <column name="instructor_name">Laurie Thompson</column>
+            <column name="instructor_netid">lthomp</column>
+            <column name="schedule">Combined Lec/Lab no Fee
+Monday &amp; Wednesday
+11:00am - 1:15pm</column>
+            <column name="location">ECSS 2.312</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1436.002</column>
+            <column name="course_title">Programming Fundamentals (4 Credits)</column>
+            <column name="instructor_name">Laurie Thompson</column>
+            <column name="instructor_netid">lthomp</column>
+            <column name="schedule">Combined Lec/Lab no Fee
+Monday &amp; Wednesday
+2:30pm - 4:45pm</column>
+            <column name="location">ECSS 2.312</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 1436.003</column>
+            <column name="course_title">Programming Fundamentals (4 Credits)</column>
+            <column name="instructor_name">James Willson</column>
+            <column name="instructor_netid">jkw053000</column>
+            <column name="schedule">Combined Lec/Lab no Fee
+Tuesday &amp; Thursday
+1:00pm - 3:15pm</column>
+            <column name="location">ECSS 2.312</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2305.001</column>
+            <column name="course_title">Discrete Mathematics for Computing I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jessica Ouyang</column>
+            <column name="instructor_netid">jjo190001</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:30am - 9:45am</column>
+            <column name="location">ECSW 1.315</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2305.002</column>
+            <column name="course_title">Discrete Mathematics for Computing I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jason Jue</column>
+            <column name="instructor_netid">jjue</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:30am - 9:45am</column>
+            <column name="location">HH 2.402</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2305.004</column>
+            <column name="course_title">Discrete Mathematics for Computing I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sergey Bereg</column>
+            <column name="instructor_netid">sxb027100</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">SLC 1.102</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 2305.005</column>
+            <column name="course_title">Discrete Mathematics for Computing I (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Daniel Gibney</column>
+            <column name="instructor_netid">djg230002</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSW 1.315</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 2336.001</column>
+            <column name="course_title">Computer Science II (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Brian Ricks</column>
+            <column name="instructor_netid">bwr031000</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 2336.003</column>
+            <column name="course_title">Computer Science II (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Brian Ricks</column>
+            <column name="instructor_netid">bwr031000</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">GR 2.530</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2336.005</column>
+            <column name="course_title">Computer Science II (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jason Smith</column>
+            <column name="instructor_netid">jws130830</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.201</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2336.007</column>
+            <column name="course_title">Computer Science II (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jeyakesavan Veerasamy</column>
+            <column name="instructor_netid">veerasam</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.201</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2336.008</column>
+            <column name="course_title">Computer Science II (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Aditya Srivastava</column>
+            <column name="instructor_netid">axs142531</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.203</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2336.501</column>
+            <column name="course_title">Computer Science II (3 Semester Credit Hours)</column>
+            <column name="instructor_name">David Sims</column>
+            <column name="instructor_netid">dxs190044</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2337.501</column>
+            <column name="course_title">Computer Science II (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Doug DeGroot, Gordon Arnold</column>
+            <column name="instructor_netid">dxd180020, gxa120930</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2340.001</column>
+            <column name="course_title">Computer Architecture (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Alice Wang</column>
+            <column name="instructor_netid">axw230018</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">JO 4.614</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2340.003</column>
+            <column name="course_title">Computer Architecture (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Alice Wang</column>
+            <column name="instructor_netid">axw230018</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.311</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2340.004</column>
+            <column name="course_title">Computer Architecture (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yvo Desmedt</column>
+            <column name="instructor_netid">ygd120030</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 2340.005</column>
+            <column name="course_title">Computer Architecture (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Wafa Jaffal</column>
+            <column name="instructor_netid">wxj210000</column>
+            <column name="schedule">Monday &amp; Wednesday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.311</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2340.006</column>
+            <column name="course_title">Computer Architecture (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Alice Wang</column>
+            <column name="instructor_netid">axw230018</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2340.007</column>
+            <column name="course_title">Computer Architecture (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Wafa Jaffal</column>
+            <column name="instructor_netid">wxj210000</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.311</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2340.008</column>
+            <column name="course_title">Computer Architecture (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Nhut Nguyen</column>
+            <column name="instructor_netid">nhutnn</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 2340.hn1</column>
+            <column name="course_title">Computer Architecture - CV Honors (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Nhut Nguyen</column>
+            <column name="instructor_netid">nhutnn</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">AD 3.216</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3162.051</column>
+            <column name="course_title">Professional Responsibility in Computer Science and Software Engineering (1 Semester Credit Hour)</column>
+            <column name="instructor_name">John Cole</column>
+            <column name="instructor_netid">jxc064000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+9:00am - 9:50am</column>
+            <column name="location">FN 2.102</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3162.052</column>
+            <column name="course_title">Professional Responsibility in Computer Science and Software Engineering (1 Semester Credit Hour)</column>
+            <column name="instructor_name">John Cole</column>
+            <column name="instructor_netid">jxc064000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:00am - 8:50am</column>
+            <column name="location">FN 2.102</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3162.091</column>
+            <column name="course_title">Professional Responsibility in Computer Science and Software Engineering (1 Semester Credit Hour)</column>
+            <column name="instructor_name">John Cole</column>
+            <column name="instructor_netid">jxc064000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+9:00am - 9:50am</column>
+            <column name="location">FN 2.102</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3162.092</column>
+            <column name="course_title">Professional Responsibility in Computer Science and Software Engineering (1 Semester Credit Hour)</column>
+            <column name="instructor_name">John Cole</column>
+            <column name="instructor_netid">jxc064000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:00am - 8:50am</column>
+            <column name="location">FN 2.102</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3341.001</column>
+            <column name="course_title">Probability and Statistics in Computer Science and Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Octavious Smiley</column>
+            <column name="instructor_netid">oxs230011</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3341.002</column>
+            <column name="course_title">Probability and Statistics in Computer Science and Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Huizhen Guo</column>
+            <column name="instructor_netid">hxg190020</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3341.003</column>
+            <column name="course_title">Probability and Statistics in Computer Science and Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Huizhen Guo</column>
+            <column name="instructor_netid">hxg190020</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3341.004</column>
+            <column name="course_title">Probability and Statistics in Computer Science and Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Huizhen Guo</column>
+            <column name="instructor_netid">hxg190020</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3341.005</column>
+            <column name="course_title">Probability and Statistics in Computer Science and Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Shengjie Jiang</column>
+            <column name="instructor_netid">sxj220069</column>
+            <column name="schedule">Monday &amp; Wednesday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3341.006</column>
+            <column name="course_title">Probability and Statistics in Computer Science and Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Octavious Smiley</column>
+            <column name="instructor_netid">oxs230011</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">HH 2.402</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3341.501</column>
+            <column name="course_title">Probability and Statistics in Computer Science and Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Octavious Smiley</column>
+            <column name="instructor_netid">oxs230011</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSW 1.315</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3345.001</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yvo Desmedt</column>
+            <column name="instructor_netid">ygd120030</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3345.002</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Meghana Satpute</column>
+            <column name="instructor_netid">mns086000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.311</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3345.003</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sridhar Alagar</column>
+            <column name="instructor_netid">sxa173731</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3345.005</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Omar Hamdy</column>
+            <column name="instructor_netid">oxh210004</column>
+            <column name="schedule">Monday &amp; Wednesday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3345.006</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sruthi Chappidi</column>
+            <column name="instructor_netid">sxc105920</column>
+            <column name="schedule">Monday &amp; Wednesday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3345.007</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Meghana Satpute</column>
+            <column name="instructor_netid">mns086000</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">JO 3.601</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3345.008</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Parisa Darbari</column>
+            <column name="instructor_netid">dal776869</column>
+            <column name="schedule">Monday &amp; Wednesday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3345.009</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yi Zhao</column>
+            <column name="instructor_netid">zhao</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3345.501</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Omar Hamdy</column>
+            <column name="instructor_netid">oxh210004</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3345.502</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ziaullah Khan</column>
+            <column name="instructor_netid">kkhan</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3345.504</column>
+            <column name="course_title">Data Structures and Introduction to Algorithmic Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ziaullah Khan</column>
+            <column name="instructor_netid">kkhan</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3354.001</column>
+            <column name="course_title">Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Tien Nguyen</column>
+            <column name="instructor_netid">tnn160630</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3354.002</column>
+            <column name="course_title">Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Srimathi Srinivasan</column>
+            <column name="instructor_netid">sxs180206</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">SCI 1.210</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3354.003</column>
+            <column name="course_title">Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ranran Feng</column>
+            <column name="instructor_netid">rxf090020</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3354.004</column>
+            <column name="course_title">Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ranran Feng</column>
+            <column name="instructor_netid">rxf090020</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.203</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3354.005</column>
+            <column name="course_title">Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Priya Narayanasami</column>
+            <column name="instructor_netid">pxn173330</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3354.006</column>
+            <column name="course_title">Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Mehra Nouroz Borazjany</column>
+            <column name="instructor_netid">mxn143230</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3354.007</column>
+            <column name="course_title">Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Priya Narayanasami</column>
+            <column name="instructor_netid">pxn173330</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3354.008</column>
+            <column name="course_title">Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sruthi Chappidi</column>
+            <column name="instructor_netid">sxc105920</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3354.010</column>
+            <column name="course_title">Software Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sruthi Chappidi</column>
+            <column name="instructor_netid">sxc105920</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.203</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3354.hon</column>
+            <column name="course_title">Software Engineering - Honors (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Tien Nguyen</column>
+            <column name="instructor_netid">tnn160630</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">AD 2.216</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3377.001</column>
+            <column name="course_title">Systems Programming in UNIX and Other Environments (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Mohamed Amine Belkoura</column>
+            <column name="instructor_netid">mxb135330</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">JO 4.614</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3377.002</column>
+            <column name="course_title">Systems Programming in UNIX and Other Environments (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Richard Min</column>
+            <column name="instructor_netid">rkm010300</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3377.003</column>
+            <column name="course_title">Systems Programming in UNIX and Other Environments (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sridhar Alagar</column>
+            <column name="instructor_netid">sxa173731</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 3377.004</column>
+            <column name="course_title">Systems Programming in UNIX and Other Environments (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Richard Min</column>
+            <column name="instructor_netid">rkm010300</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3377.005</column>
+            <column name="course_title">Systems Programming in UNIX and Other Environments (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jeyakesavan Veerasamy</column>
+            <column name="instructor_netid">veerasam</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3377.006</column>
+            <column name="course_title">Systems Programming in UNIX and Other Environments (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jeyakesavan Veerasamy</column>
+            <column name="instructor_netid">veerasam</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">GR 2.302</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3377.502</column>
+            <column name="course_title">Systems Programming in UNIX and Other Environments (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Mohamed Amine Belkoura</column>
+            <column name="instructor_netid">mxb135330</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">JO 4.614</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 3377.5w1</column>
+            <column name="course_title">Systems Programming in UNIX and Other Environments (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Scott Dollinger</column>
+            <column name="instructor_netid">smd013000</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">No Meeting Room</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.101</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-10 Monday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-02-24 Monday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-03-10 Monday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-03-31 Monday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-04-14 Monday
+1:00pm - 3:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.102</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-11 Tuesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-02-25 Tuesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-03-11 Tuesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-01 Tuesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-15 Tuesday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.103</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-12 Wednesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-02-26 Wednesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-03-12 Wednesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-02 Wednesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-16 Wednesday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.104</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-13 Thursday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-02-27 Thursday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-03-13 Thursday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-03 Thursday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-17 Thursday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.105</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-14 Friday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-02-28 Friday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-03-14 Friday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-04-04 Friday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-04-18 Friday
+1:00pm - 3:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.106</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-17 Monday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-03-03 Monday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-03-24 Monday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-04-07 Monday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-04-21 Monday
+1:00pm - 3:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.107</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-18 Tuesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-03-04 Tuesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-03-25 Tuesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-08 Tuesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-22 Tuesday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.108</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-19 Wednesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-03-05 Wednesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-03-26 Wednesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-09 Wednesday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-23 Wednesday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.109</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-20 Thursday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-03-06 Thursday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-03-27 Thursday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-10 Thursday
+4:00pm - 6:45pm
+ECSN 3.112
+2025-04-24 Thursday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.110</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-21 Friday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-03-07 Friday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-03-28 Friday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-04-11 Friday
+1:00pm - 3:45pm
+ECSN 3.112
+2025-04-25 Friday
+1:00pm - 3:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.111</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-10 Monday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-02-24 Monday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-10 Monday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-31 Monday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-14 Monday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.112</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-11 Tuesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-02-25 Tuesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-11 Tuesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-01 Tuesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-15 Tuesday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.113</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-12 Wednesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-02-26 Wednesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-12 Wednesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-02 Wednesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-16 Wednesday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.114</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-13 Thursday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-02-27 Thursday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-13 Thursday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-03 Thursday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-17 Thursday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.115</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-14 Friday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-02-28 Friday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-03-14 Friday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-04-04 Friday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-04-18 Friday
+1:00pm - 3:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.116</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-19 Wednesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-05 Wednesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-26 Wednesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-09 Wednesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-23 Wednesday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.117</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-20 Thursday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-06 Thursday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-27 Thursday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-10 Thursday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-24 Thursday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.118</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-21 Friday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-03-07 Friday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-03-28 Friday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-04-11 Friday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-04-25 Friday
+1:00pm - 3:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.601</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-10 Monday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-02-24 Monday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-10 Monday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-31 Monday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-14 Monday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.602</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-11 Tuesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-02-25 Tuesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-11 Tuesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-01 Tuesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-15 Tuesday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.603</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-12 Wednesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-02-26 Wednesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-12 Wednesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-02 Wednesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-16 Wednesday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.604</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-13 Thursday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-02-27 Thursday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-13 Thursday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-03 Thursday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-17 Thursday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.605</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-14 Friday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-02-28 Friday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-14 Friday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-04 Friday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-18 Friday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.606</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-17 Monday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-21 Monday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-07 Monday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-24 Monday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-03 Monday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.607</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-18 Tuesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-22 Tuesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-08 Tuesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-25 Tuesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-04 Tuesday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.608</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-19 Wednesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-23 Wednesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-09 Wednesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-26 Wednesday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-05 Wednesday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4141.609</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-20 Thursday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-06 Thursday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-27 Thursday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-10 Thursday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-24 Thursday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.610</column>
+            <column name="course_title">Digital Systems Laboratory (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-21 Friday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-25 Friday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-04-11 Friday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-28 Friday
+7:00pm - 9:45pm
+ECSN 3.112
+2025-03-07 Friday
+7:00pm - 9:45pm</column>
+            <column name="location">ECSN 3.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.ho1</column>
+            <column name="course_title">Digital Systems Laboratory - Honors (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-17 Monday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-03-03 Monday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-03-24 Monday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-04-07 Monday
+1:00pm - 3:45pm
+ECSN 3.114
+2025-04-21 Monday
+1:00pm - 3:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4141.hon</column>
+            <column name="course_title">Digital Systems Laboratory - Honors (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Laboratory
+2025-02-18 Tuesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-04 Tuesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-03-25 Tuesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-08 Tuesday
+4:00pm - 6:45pm
+ECSN 3.114
+2025-04-22 Tuesday
+4:00pm - 6:45pm</column>
+            <column name="location">ECSN 3.114</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4301.001</column>
+            <column name="course_title">Special Topics in Computer Science - Combinatorial Optimization (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Emily Fox</column>
+            <column name="instructor_netid">kjf170230</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4301.002</column>
+            <column name="course_title">Special Topics in Computer Science - Adv Programming Languages (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Kevin Hamlen</column>
+            <column name="instructor_netid">kxh060100</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">FN 2.202</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4332.001</column>
+            <column name="course_title">Introduction to Programming Video Games (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Rawan Alghofaili</column>
+            <column name="instructor_netid">rxa230065</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">GR 2.302</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4334.001</column>
+            <column name="course_title">Numerical Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Saikat Biswas</column>
+            <column name="instructor_netid">sxb230137</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">AD 2.216</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4337.001</column>
+            <column name="course_title">Programming Language Paradigms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yi Zhao</column>
+            <column name="instructor_netid">zhao</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4337.002</column>
+            <column name="course_title">Programming Language Paradigms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yi Zhao</column>
+            <column name="instructor_netid">zhao</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">GR 2.302</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4337.003</column>
+            <column name="course_title">Programming Language Paradigms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Gity Karami</column>
+            <column name="instructor_netid">gxk180009</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">JO 4.614</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4337.004</column>
+            <column name="course_title">Programming Language Paradigms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jalal Omer</column>
+            <column name="instructor_netid">jso016000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4337.005</column>
+            <column name="course_title">Programming Language Paradigms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Elmer Salazar</column>
+            <column name="instructor_netid">ees101020</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">JO 3.601</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4337.006</column>
+            <column name="course_title">Programming Language Paradigms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Chris Davis</column>
+            <column name="instructor_netid">cid021000</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">GR 2.302</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4337.007</column>
+            <column name="course_title">Programming Language Paradigms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Gity Karami</column>
+            <column name="instructor_netid">gxk180009</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:30am - 9:45am</column>
+            <column name="location">GR 2.302</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4337.hon</column>
+            <column name="course_title">Programming Language Paradigms - Honors (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Chris Davis</column>
+            <column name="instructor_netid">cid021000</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSN 2.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4341.001</column>
+            <column name="course_title">Digital Logic and Computer Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Doug DeGroot, Alice Wang</column>
+            <column name="instructor_netid">dxd180020, axw230018</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4341.002</column>
+            <column name="course_title">Digital Logic and Computer Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Bingzhe Li</column>
+            <column name="instructor_netid">bxl230006</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4341.003</column>
+            <column name="course_title">Digital Logic and Computer Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Omar Hamdy</column>
+            <column name="instructor_netid">oxh210004</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4341.004</column>
+            <column name="course_title">Digital Logic and Computer Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Doug DeGroot, Gity Karami</column>
+            <column name="instructor_netid">dxd180020, gxk180009</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.203</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4341.005</column>
+            <column name="course_title">Digital Logic and Computer Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Gity Karami</column>
+            <column name="instructor_netid">gxk180009</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4341.006</column>
+            <column name="course_title">Digital Logic and Computer Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Eric Becker</column>
+            <column name="instructor_netid">ewb160130</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4341.hon</column>
+            <column name="course_title">Digital Logic and Computer Design - Honors (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ebru Cankaya</column>
+            <column name="instructor_netid">exc067000</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">PHY 1.103</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4347.001</column>
+            <column name="course_title">Database Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jalal Omer</column>
+            <column name="instructor_netid">jso016000</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4347.002</column>
+            <column name="course_title">Database Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Wei Wu</column>
+            <column name="instructor_netid">wxw020100</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4347.003</column>
+            <column name="course_title">Database Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jalal Omer</column>
+            <column name="instructor_netid">jso016000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">GR 2.530</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4347.004</column>
+            <column name="course_title">Database Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Pushpa Kumar</column>
+            <column name="instructor_netid">pkumar</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4347.005</column>
+            <column name="course_title">Database Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Xinda Wang</column>
+            <column name="instructor_netid">xxw230005</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4347.006</column>
+            <column name="course_title">Database Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Pushpa Kumar</column>
+            <column name="instructor_netid">pkumar</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4347.501</column>
+            <column name="course_title">Database Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Chris Davis</column>
+            <column name="instructor_netid">cid021000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">GR 2.530</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4347.502</column>
+            <column name="course_title">Database Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ziaullah Khan</column>
+            <column name="instructor_netid">kkhan</column>
+            <column name="schedule">Tuesday &amp; Thursday
+7:00pm - 8:15pm</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4348.001</column>
+            <column name="course_title">Operating Systems Concepts (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Erik Peterson</column>
+            <column name="instructor_netid">eap190004</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4348.002</column>
+            <column name="course_title">Operating Systems Concepts (3 Semester Credit Hours)</column>
+            <column name="instructor_name">I-Ling Yen</column>
+            <column name="instructor_netid">ilyen</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4348.003</column>
+            <column name="course_title">Operating Systems Concepts (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Elmer Salazar</column>
+            <column name="instructor_netid">ees101020</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.312</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4348.004</column>
+            <column name="course_title">Operating Systems Concepts (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Neeraj Mittal</column>
+            <column name="instructor_netid">nxm020100</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">JO 4.614</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4348.501</column>
+            <column name="course_title">Operating Systems Concepts (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Elmer Salazar</column>
+            <column name="instructor_netid">ees101020</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4348.503</column>
+            <column name="course_title">Operating Systems Concepts (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jonathan Perry</column>
+            <column name="instructor_netid">jjp160630</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4349.001</column>
+            <column name="course_title">Advanced Algorithm Design and Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">James Willson</column>
+            <column name="instructor_netid">jkw053000</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4349.002</column>
+            <column name="course_title">Advanced Algorithm Design and Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">James Willson</column>
+            <column name="instructor_netid">jkw053000</column>
+            <column name="schedule">Monday &amp; Wednesday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4349.003</column>
+            <column name="course_title">Advanced Algorithm Design and Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ding Du</column>
+            <column name="instructor_netid">dxd056000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4349.004</column>
+            <column name="course_title">Advanced Algorithm Design and Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Bhadrachalam Chitturi</column>
+            <column name="instructor_netid">chalam</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4349.005</column>
+            <column name="course_title">Advanced Algorithm Design and Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Serdar Erbatur</column>
+            <column name="instructor_netid">sxe190003</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4349.006</column>
+            <column name="course_title">Advanced Algorithm Design and Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Bhadrachalam Chitturi</column>
+            <column name="instructor_netid">chalam</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4349.007</column>
+            <column name="course_title">Advanced Algorithm Design and Analysis (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Parisa Darbari</column>
+            <column name="instructor_netid">dal776869</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.203</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4352.001</column>
+            <column name="course_title">Introduction to Human-Computer Interaction (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Erika Orrick</column>
+            <column name="instructor_netid">edo042000</column>
+            <column name="schedule">Monday
+4:00pm - 6:45pm</column>
+            <column name="location">CRA 12.110</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4361.001</column>
+            <column name="course_title">Computer Graphics (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Pushpa Kumar</column>
+            <column name="instructor_netid">pkumar</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4365.001</column>
+            <column name="course_title">Artificial Intelligence (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sanda Harabagiu</column>
+            <column name="instructor_netid">sanda</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4365.002</column>
+            <column name="course_title">Artificial Intelligence (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yu Chung Ng</column>
+            <column name="instructor_netid">ycn041000</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4365.003</column>
+            <column name="course_title">Artificial Intelligence (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Vibhav Gogate</column>
+            <column name="instructor_netid">vxg112130</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:30am - 9:45am</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4365.004</column>
+            <column name="course_title">Artificial Intelligence (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Vlad Birsan</column>
+            <column name="instructor_netid">vib220000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">SLC 1.102</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4365.501</column>
+            <column name="course_title">Artificial Intelligence (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Haim Schweitzer</column>
+            <column name="instructor_netid">haim</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">GR 2.302</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4365.hon</column>
+            <column name="course_title">Artificial Intelligence - Honors (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yu Chung Ng</column>
+            <column name="instructor_netid">ycn041000</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSN 2.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4375.001</column>
+            <column name="course_title">Introduction to Machine Learning (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sriraam Natarajan</column>
+            <column name="instructor_netid">sxn177430</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">JO 3.601</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4375.002</column>
+            <column name="course_title">Introduction to Machine Learning (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Feng Chen</column>
+            <column name="instructor_netid">fxc190007</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">HH 2.502</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4375.003</column>
+            <column name="course_title">Introduction to Machine Learning (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Rishabh Iyer</column>
+            <column name="instructor_netid">rki190000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">MC 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4375.004</column>
+            <column name="course_title">Introduction to Machine Learning (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Tahrima Rahman</column>
+            <column name="instructor_netid">txr110830</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">JO 4.614</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4375.501</column>
+            <column name="course_title">Introduction to Machine Learning (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Erick Skorupa Parolin</column>
+            <column name="instructor_netid">exs172930</column>
+            <column name="schedule">Tuesday &amp; Thursday
+7:00pm - 8:15pm</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4376.001</column>
+            <column name="course_title">Object-Oriented Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Mark Paulk</column>
+            <column name="instructor_netid">mcp130030</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:30am - 9:45am</column>
+            <column name="location">MC 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4376.002</column>
+            <column name="course_title">Object-Oriented Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Mark Paulk</column>
+            <column name="instructor_netid">mcp130030</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4384.001</column>
+            <column name="course_title">Automata Theory (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Bhadrachalam Chitturi</column>
+            <column name="instructor_netid">chalam</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4384.002</column>
+            <column name="course_title">Automata Theory (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Simeon Ntafos</column>
+            <column name="instructor_netid">ntafos</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">GR 3.420</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4384.003</column>
+            <column name="course_title">Automata Theory (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Serdar Erbatur</column>
+            <column name="instructor_netid">sxe190003</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSW 1.315</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4384.004</column>
+            <column name="course_title">Automata Theory (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Serdar Erbatur</column>
+            <column name="instructor_netid">sxe190003</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">MC 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4384.501</column>
+            <column name="course_title">Automata Theory (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Zachary Stallbohm</column>
+            <column name="instructor_netid">zxs110030</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">GR 2.302</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4384.502</column>
+            <column name="course_title">Automata Theory (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Simeon Ntafos</column>
+            <column name="instructor_netid">ntafos</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">GR 3.420</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4384.hon</column>
+            <column name="course_title">Automata Theory - Honors (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Dung Huynh</column>
+            <column name="instructor_netid">huynh</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">AD 3.216</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4386.501</column>
+            <column name="course_title">Compiler Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Neeraj Gupta</column>
+            <column name="instructor_netid">nkg140130</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSS 2.201</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4390.001</column>
+            <column name="course_title">Computer Networks (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Nidhiben Solanki</column>
+            <column name="instructor_netid">nxs121130</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">MC 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4390.002</column>
+            <column name="course_title">Computer Networks (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Zygmunt Haas</column>
+            <column name="instructor_netid">zjh130030</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">HH 2.502</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 4390.003</column>
+            <column name="course_title">Computer Networks (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Nidhiben Solanki</column>
+            <column name="instructor_netid">nxs121130</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.201</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4390.004</column>
+            <column name="course_title">Computer Networks (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yi Ding</column>
+            <column name="instructor_netid">yxd230004</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">CR 1.202</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4390.005</column>
+            <column name="course_title">Computer Networks (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Zygmunt Haas</column>
+            <column name="instructor_netid">zjh130030</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4391.002</column>
+            <column name="course_title">Introduction to Computer Vision (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ranran Feng</column>
+            <column name="instructor_netid">rxf090020</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.203</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4393.001</column>
+            <column name="course_title">Computer and Network Security (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Nhut Nguyen</column>
+            <column name="instructor_netid">nhutnn</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">FO 2.208</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4395.002</column>
+            <column name="course_title">Human Language Technologies (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Xinya Du</column>
+            <column name="instructor_netid">xxd220001</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSW 1.315</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4396.001</column>
+            <column name="course_title">Networking Laboratory (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Kamil Sarac</column>
+            <column name="instructor_netid">kxs028100</column>
+            <column name="schedule">Friday
+10:00am - 12:45pm</column>
+            <column name="location">ECSW 1.355</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4459.001</column>
+            <column name="course_title">Cyber Attack and Defense Laboratory (4 Credits)</column>
+            <column name="instructor_name">Kangkook Jee</column>
+            <column name="instructor_netid">kxj190011</column>
+            <column name="schedule">Combined Lec/Lab no Fee
+Tuesday &amp; Thursday
+4:00pm - 6:15pm</column>
+            <column name="location">ECSS 2.311</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4475.001</column>
+            <column name="course_title">Capstone Project (4 Credits)</column>
+            <column name="instructor_name">Kemelli Estacio-Hiroms</column>
+            <column name="instructor_netid">kxe160930</column>
+            <column name="schedule">Friday
+8:30am - 11:15am</column>
+            <column name="location">AD 2.232</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4485.0w1</column>
+            <column name="course_title">Computer Science Project (4 Credits)</column>
+            <column name="instructor_name">Miguel Razo Razo, John Cole, Sridhar Alagar, Raed Salih, Eric Becker, Selim Sarac, Aditya Srivastava, Muhammad Ikram</column>
+            <column name="instructor_netid">mrazora, jxc064000, sxa173731, dal360153, ewb160130, dal552490, axs142531, mzi041000</column>
+            <column name="schedule">Tuesday
+1:00pm - 2:15pm
+No Meeting Room
+Friday
+1:00pm - 3:15pm</column>
+            <column name="location">No Meeting Room</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4v98.001</column>
+            <column name="course_title">Undergraduate Research in Computer Science (1-9 Credits)</column>
+            <column name="instructor_name">Yapeng Tian</column>
+            <column name="instructor_netid">yxt220013</column>
+            <column name="schedule">Research
+Friday
+4:00pm - 6:45pm</column>
+            <column name="location">CB 1.106</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4v98.054</column>
+            <column name="course_title">Undergraduate Research in Computer Science - Design of Robotics Systems (1-9 Credits)</column>
+            <column name="instructor_name">Yonas Tadesse</column>
+            <column name="instructor_netid">ytt110030</column>
+            <column name="schedule">Research</column>
+            <column name="location">N/A</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4v98.094</column>
+            <column name="course_title">Undergraduate Research in Computer Science - Al and Machine Learning Rsrch (1-9 Credits)</column>
+            <column name="instructor_name">Yu Chung Ng</column>
+            <column name="instructor_netid">ycn041000</column>
+            <column name="schedule">Research</column>
+            <column name="location">N/A</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 4v98.095</column>
+            <column name="course_title">Undergraduate Research in Computer Science - Rsrch on Software Traceability (1-9 Credits)</column>
+            <column name="instructor_name">N/A</column>
+            <column name="instructor_netid">N/A</column>
+            <column name="schedule">Research</column>
+            <column name="location">N/A</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 5333.001</column>
+            <column name="course_title">Discrete Structures (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jorge Cobb</column>
+            <column name="instructor_netid">jcobb</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">AD 3.216</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 5343.001</column>
+            <column name="course_title">Algorithm Analysis and Data Structures (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Neeraj Gupta</column>
+            <column name="instructor_netid">nkg140130</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">JO 3.601</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 5348.004</column>
+            <column name="course_title">Operating Systems Concepts (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Neeraj Mittal</column>
+            <column name="instructor_netid">nxm020100</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">JO 4.614</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 5349.003</column>
+            <column name="course_title">Automata Theory (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Serdar Erbatur</column>
+            <column name="instructor_netid">sxe190003</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSW 1.315</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 5390.003</column>
+            <column name="course_title">Computer Networks (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Nidhiben Solanki</column>
+            <column name="instructor_netid">nxs121130</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.201</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 5v81.001</column>
+            <column name="course_title">Special Topics in Computer Science - Sfs Seminar (1 Semester Credit Hour)</column>
+            <column name="instructor_name">Kamil Sarac</column>
+            <column name="instructor_netid">kxs028100</column>
+            <column name="schedule">Independent Study
+Saturday
+10:00am - 12:45pm</column>
+            <column name="location">ECSN 2.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6301.001</column>
+            <column name="course_title">Special Topics in Computer Science - Quantum Computing (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Andrew Nemec</column>
+            <column name="instructor_netid">dal957114</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">HH 2.502</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6304.001</column>
+            <column name="course_title">Computer Architecture (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Hossein Pedram</column>
+            <column name="instructor_netid">hxp220048</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">GR 3.606</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6305.501</column>
+            <column name="course_title">Data Security and Privacy for Practitioners (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ebru Cankaya</column>
+            <column name="instructor_netid">exc067000</column>
+            <column name="schedule">Monday
+5:30pm - 8:15pm</column>
+            <column name="location">ECSS 2.201</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6307.501</column>
+            <column name="course_title">Introduction to Big Data Management and Analytics for non CS-Majors (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Anurag Nagar</column>
+            <column name="instructor_netid">axn112530</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">AD 3.216</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6308.501</column>
+            <column name="course_title">Cyber Physical Systems and Critical Infrastructure Security for Practitioners (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Brian Ricks</column>
+            <column name="instructor_netid">bwr031000</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">CR 1.202</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6313.001</column>
+            <column name="course_title">Statistical Methods for Data Science (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Xiwei Tang</column>
+            <column name="instructor_netid">dal295425</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.305</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6314.501</column>
+            <column name="course_title">Web Programming Languages (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Richard Min</column>
+            <column name="instructor_netid">rkm010300</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSS 2.412</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6319.001</column>
+            <column name="course_title">Computational Geometry (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Benjamin Raichel</column>
+            <column name="instructor_netid">bar150630</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSN 2.112</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6320.001</column>
+            <column name="course_title">Natural Language Processing (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Tatiana Erekhinskaya</column>
+            <column name="instructor_netid">txe110230</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSW 1.315</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 6320.002</column>
+            <column name="course_title">Natural Language Processing (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Zhiyu Chen</column>
+            <column name="instructor_netid">zxc230011</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">AD 3.216</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6322.001</column>
+            <column name="course_title">Information Retrieval (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sanda Harabagiu</column>
+            <column name="instructor_netid">sanda</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.311</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 6324.001</column>
+            <column name="course_title">Information Security (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Chung Hwan Kim</column>
+            <column name="instructor_netid">cxk200010</column>
+            <column name="schedule">Monday &amp; Wednesday
+4:00pm - 5:15pm</column>
+            <column name="location">GR 2.530</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6334.001</column>
+            <column name="course_title">Virtual Reality (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jin Ryong Kim</column>
+            <column name="instructor_netid">jrk200002</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">JO 3.601</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 6347.001</column>
+            <column name="course_title">Statistical Methods in AI and Machine Learning (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Nicholas Ruozzi</column>
+            <column name="instructor_netid">nrr150130</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">GR 2.530</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6348.001</column>
+            <column name="course_title">Data and Applications Security (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ebru Cankaya</column>
+            <column name="instructor_netid">exc067000</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 6349.501</column>
+            <column name="course_title">Network Security (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Shuang Hao</column>
+            <column name="instructor_netid">sxh178730</column>
+            <column name="schedule">Monday &amp; Friday
+5:30pm - 6:45pm</column>
+            <column name="location">SCI 1.210</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6350.001</column>
+            <column name="course_title">Big Data Management and Analytics (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Anurag Nagar</column>
+            <column name="instructor_netid">axn112530</column>
+            <column name="schedule">Monday &amp; Wednesday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6350.002</column>
+            <column name="course_title">Big Data Management and Analytics (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Anurag Nagar</column>
+            <column name="instructor_netid">axn112530</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.415</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6352.001</column>
+            <column name="course_title">Performance of Computer Systems and Networks (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Jason Jue</column>
+            <column name="instructor_netid">jjue</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 3.910</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6353.001</column>
+            <column name="course_title">Compiler Construction (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Shiyi Wei</column>
+            <column name="instructor_netid">sxw174630</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">FN 2.214</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6356.001</column>
+            <column name="course_title">Software Maintenance Evolution and Re-Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Shiyi Wei</column>
+            <column name="instructor_netid">sxw174630</column>
+            <column name="schedule">Monday &amp; Wednesday
+8:30am - 9:45am</column>
+            <column name="location">ECSS 2.203</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6359.001</column>
+            <column name="course_title">Object-Oriented Analysis and Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Rym Zalila-Wenkstern</column>
+            <column name="instructor_netid">rmili</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">ECSS 2.201</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 6360.002</column>
+            <column name="course_title">Database Design (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Wei Wu</column>
+            <column name="instructor_netid">wxw020100</column>
+            <column name="schedule">Monday &amp; Wednesday
+1:00pm - 2:15pm</column>
+            <column name="location">JO 3.601</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6361.001</column>
+            <column name="course_title">Advanced Requirements Engineering (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Lawrence Chung</column>
+            <column name="instructor_netid">chung</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.312</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Full</column>
+            <column name="course_number_section">CS 6363.001</column>
+            <column name="course_title">Design and Analysis of Computer Algorithms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Dung Huynh</column>
+            <column name="instructor_netid">huynh</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">ECSS 2.311</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6363.501</column>
+            <column name="course_title">Design and Analysis of Computer Algorithms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Sergey Bereg</column>
+            <column name="instructor_netid">sxb027100</column>
+            <column name="schedule">Monday &amp; Wednesday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSS 2.203</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6363.502</column>
+            <column name="course_title">Design and Analysis of Computer Algorithms (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ding Du</column>
+            <column name="instructor_netid">dxd056000</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">ECSS 2.203</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6364.001</column>
+            <column name="course_title">Artificial Intelligence (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Haim Schweitzer</column>
+            <column name="instructor_netid">haim</column>
+            <column name="schedule">Tuesday &amp; Thursday
+4:00pm - 5:15pm</column>
+            <column name="location">GR 3.420</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6366.001</column>
+            <column name="course_title">Computer Graphics (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Xiaohu Guo</column>
+            <column name="instructor_netid">xxg061000</column>
+            <column name="schedule">Monday &amp; Wednesday
+10:00am - 11:15am</column>
+            <column name="location">CR 1.202</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6367.001</column>
+            <column name="course_title">Software Testing Validation and Verification (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Mehra Nouroz Borazjany</column>
+            <column name="instructor_netid">mxn143230</column>
+            <column name="schedule">Tuesday &amp; Thursday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSS 2.306</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6371.002</column>
+            <column name="course_title">Advanced Programming Languages - Adv Programming Languages (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Kevin Hamlen</column>
+            <column name="instructor_netid">kxh060100</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">FN 2.202</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6375.001</column>
+            <column name="course_title">Machine Learning (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Wei Yang</column>
+            <column name="instructor_netid">wxy180002</column>
+            <column name="schedule">Monday &amp; Wednesday
+2:30pm - 3:45pm</column>
+            <column name="location">ECSW 1.365</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6375.002</column>
+            <column name="course_title">Machine Learning (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Crystal Maung</column>
+            <column name="instructor_netid">ktm016100</column>
+            <column name="schedule">Saturday
+11:00am - 1:45pm</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6378.001</column>
+            <column name="course_title">Advanced Operating Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ravi Prakash</column>
+            <column name="instructor_netid">ravip</column>
+            <column name="schedule">Tuesday &amp; Thursday
+8:30am - 9:45am</column>
+            <column name="location">GR 2.530</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6384.001</column>
+            <column name="course_title">Computer Vision (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yapeng Tian</column>
+            <column name="instructor_netid">yxt220013</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 2.410</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6384.003</column>
+            <column name="course_title">Computer Vision (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Yunhui Guo</column>
+            <column name="instructor_netid">yxg220013</column>
+            <column name="schedule">Tuesday &amp; Thursday
+11:30am - 12:45pm</column>
+            <column name="location">ECSS 3.910</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6396.001</column>
+            <column name="course_title">Real-Time Systems (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Farokh Bastani</column>
+            <column name="instructor_netid">bastani</column>
+            <column name="schedule">Tuesday &amp; Thursday
+10:00am - 11:15am</column>
+            <column name="location">SLC 1.204</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6v81.082</column>
+            <column name="course_title">Independent Study in Computer Science (1-9 Credits)</column>
+            <column name="instructor_name">Jin Ryong Kim</column>
+            <column name="instructor_netid">jrk200002</column>
+            <column name="schedule">Independent Study</column>
+            <column name="location">N/A</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6v81.099</column>
+            <column name="course_title">Independent Study in Computer Science (1-9 Credits)</column>
+            <column name="instructor_name">Chung Hwan Kim</column>
+            <column name="instructor_netid">cxk200010</column>
+            <column name="schedule">Independent Study</column>
+            <column name="location">N/A</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 6v98.099</column>
+            <column name="course_title">Thesis (3-9 Credits)</column>
+            <column name="instructor_name">Chung Hwan Kim</column>
+            <column name="instructor_netid">cxk200010</column>
+            <column name="schedule">Master&#039;s Thesis</column>
+            <column name="location">N/A</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 7301.001</column>
+            <column name="course_title">Recent Advances in Computing - Recent Advances in Networking (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Ravi Prakash</column>
+            <column name="instructor_netid">ravip</column>
+            <column name="schedule">Tuesday &amp; Thursday
+1:00pm - 2:15pm</column>
+            <column name="location">AD 2.232</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 7301.501</column>
+            <column name="course_title">Recent Advances in Computing - Trustworthy Ai and Application (3 Semester Credit Hours)</column>
+            <column name="instructor_name">Latifur Khan</column>
+            <column name="instructor_netid">lkhan</column>
+            <column name="schedule">Tuesday &amp; Thursday
+5:30pm - 6:45pm</column>
+            <column name="location">CR 1.202</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+        <table name="course1">
+            <column name="year_semester">25S
+Open</column>
+            <column name="course_number_section">CS 8v99.059</column>
+            <column name="course_title">Dissertation (1-9 Credits)</column>
+            <column name="instructor_name">Yu Xiang</column>
+            <column name="instructor_netid">yxx210005</column>
+            <column name="schedule">Dissertation</column>
+            <column name="location">N/A</column>
+            <column name="time_created">2025-03-18 14:57:26</column>
+            <column name="time_updated">2025-03-18 14:57:26</column>
+        </table>
+    </database>
+</pma_xml_export>
